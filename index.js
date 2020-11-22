@@ -10,8 +10,11 @@ const page = `
   </head>
 
   <body>
-    <h1>This displays the joke</h1>
-    <p>punchline</p>
+    <h1>What’s the difference between Dubai and Abu Dhabi? </h1>
+    <p>People in Dubai don’t like the Flinstones but people in Abu Dhabi doooooooooooooooooo!</p>
+    <hr>
+    <h1>What do you call a broken can opener?</h1>
+    <p>A can’t opener.</p>
   </body>
 </html>`
 
