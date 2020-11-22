@@ -16,17 +16,14 @@ const page = `
 </html>`
 
 app.get(
-    '/', // route
-    (request, response)=>{
+    '/', 
+    (request, response)=> {
     response.send(page)
-    }  // handler callback
+    }  
   )
 
+  const port = process.env.PORT || 3000
 
-
-const port = 3000
-
-// start listening
 app.listen(
   port,
   () => console.log(`Listening on :${port}`)
